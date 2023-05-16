@@ -1,0 +1,141 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-image: url(images/rome.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition: 0.5s;
+    
+}
+
+
+
+.logo{
+    color:rgb(255, 117, 124);
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1.5rem ;
+    position: relative;
+    right: 35%;
+    text-transform: uppercase;
+    top: -1%;
+}
+.fares{
+    color: white;
+}
+.form input{
+    width: 330px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    color: #ff7200;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 70px;
+    font-family: sans-serif;
+    position: relative;
+    left: 10%;
+}
+.form input:focus{
+    outline: none;
+}
+.btn{
+    width: 290px;
+    height: 40px;
+    background-color: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: relative;
+    left: 50px;
+}
+.btn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+h1{
+    margin: auto;
+    position: relative;
+    left: 42%;
+    top: 25px;
+}
+.form p{
+    left: 40px;
+}
+.signup{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 62px;
+    margin-right: -62px;
+    line-height: 20px;
+}
+.nav{
+    display: flex;
+    font-size: 1.1rem;
+    width: 500px;
+    margin-bottom: 10%;
+    
+}
+.log{
+    position: relative;
+    margin-left:67px;
+    margin-right: -67px;
+}
+.menu{
+    color: wheat;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    position: relative;
+    right: -40%;
+}
+.menu:hover{
+    text-decoration: none;
+    color: #ff7200;
+}
+.media{
+    width: 600px;
+    position: relative;
+    left: 80px;
+    top: -10px;
+}
+.link{
+    color: white;
+    margin: auto;
+    font-size: 1.5em;
+    margin-top: 70%;
+    margin-right: 8%;
+}
+.link:hover{
+    text-decoration: none;
+    color:#ff7200;
+    
+}
+.icon{
+    width: 40px;
+    position: relative;
+    top: 0.3rem;
+}

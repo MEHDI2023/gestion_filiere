@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaas</title>
+    <link rel="icon" type="isaas.PNG" href="logo_isaas.icon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-9aPpxuV7HRSF1GWuV7yE8TtW0TtQvcsoXtvVZgMdSO8tWjKfHsXTs+wPLyLd8I4W4OvNOl+jY9Z1hqfnn71S+A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    var images = ["christin-hume-Hcfwew744z4-unsplash.jpg","christopher-gower-m_HRfLhgABo-unsplash.jpg","sincerely-media-dGxOgeXAXm8-unsplash.jpg","thought-catalog-505eectW54k-unsplash.jpg","luca-bravo-9l_326FISzk-unsplash.jpg","jeshoots-com-pUAM5hPaCRI-unsplash.jpg"];
+
+    var i = 0;
+    setInterval(function() {
+        document.body.style.backgroundImage = "url(" + images[i] + ")";
+        i = (i + 1) % images.length;
+    }, 3000); 
+</script>
+<body>
+    <div class="head">
+        <img src="OIP.jpg" alt="drapeau de tunisie">
+        <br>
+        <p>République Tunisienne
+        <br>
+        Ministère de l’Enseignement Supérieur et de la Recherche Scientifique
+        <br>
+        université de SFAX</p>
+        <ul>
+            
+            <li> <a href="index.html"><i class="fas fa-home"></i>ACCUEIL</a></li>
+            <li> <a href="galerie.html"><i class="fas fa-camera"></i>GALERIE</a></li>
+            <li>  <a href="index.html#fieldset"><i class="fas fa-newspaper"></i>ACTUALITÉS</a></li>
+                <li>  <a href="#"><i class="far fa-calendar-alt"></i>AGENDA</a></li>
+                <li> <a href="#footer"><i class="fas fa-envelope"></i>CONTACT</a></li>
+            
+        </ul>
+    </div>
+    <header>
+        <div class="logo">
+            <div><img src="Capture d’écran 2023-04-15 203657.png" alt=""></div>
+            <div class="recherche"> 
+                <input type="search" placeholder="Recherche... " >
+                <i class="fas fa-search"></i>
+                <div class="extranet">
+                <a href="etudiant.html" ><i class="fas fa-user"></i>Espace Extranet</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="galerie-pr">
+    <div class="galerie">
+    <div>
+        <img src="activite1.jpg" alt="">
+    </div>
+    <div>
+        <img src="activite4.jpg" alt="">
+    </div>
+    <div>
+        <img src="activite5.jpg" alt="">
+    </div>
+</div>
+<div class="galerie2">
+    <div>
+        <img src="activite6.jpg" alt="">
+    </div>
+    <div>
+        <img src="activite5.jpg" alt="">
+    </div>
+    <div>
+        <img src="activite1.jpg" alt="">
+    </div>
+</div>
+</div>
+<footer id="footer">
+    <div class="logo-footer">
+        <img src="logo_isaas.icon.ico" alt=""> 
+        <div><h3><strong>adresse:</strong> route matar k4 </h3>
+        <h3><strong>Tel:</strong> 77998884</h3>
+        <h3><strong>Fax:</strong> 77554433</h3>
+        <h3><strong>Email:</strong> contact@gmail.com </h3>
+    </div>
+    </div>
+    <div class="title-elem">
+        <h1>Faculte</h1>
+        <ul>
+            <li><a href="#">Mot de Doyen</a></li>
+            <li><a href="#">Organigramme</a></li>
+            <li><a href="#">En chiffre</a></li>
+            <li><a href="#">Des conseiles</a></li>
+        </ul>
+    </div>
+    <div class="title-elem">
+        <h1>Etudiant</h1>
+        <ul>
+            <li><a href="#">Clubs</a></li>
+            <li><a href="#">Manifestations</a></li>
+            <li><a href="#">Activités sportives</a></li>
+            <li><a href="#">Activités culturelles</a></li>
+        </ul>
+    </div>
+    <div class="title-elem">
+        <h1>Entreprise</h1>
+        <ul>
+            <li><a href="#">Stage & PFE</a></li>
+            <li><a href="#">Recrutement</a></li>
+            <li><a href="#">Listes des offres d'emplois</a></li>
+            <li><a href="#">Listes des débouchés</a></li>
+        </ul>
+    </div>
+</div>
+    
+</footer>
+<div class="copyright">
+<h5>Copyright ©2023 All rights reserved IRM</h5></div>
+</body>
+
+
+</html>
